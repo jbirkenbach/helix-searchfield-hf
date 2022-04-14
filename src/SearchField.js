@@ -117,7 +117,7 @@ const SearchField = ({ options = [], onChange = () => {}, placeholder = 'Search.
         <div className='options'>
           <div className='search-results'>
             <div>Search results:</div>
-            <div className='option'>{`${searchResults.length} out of ${options.length}`}</div>
+            <div>{`${searchResults.length} out of ${options.length}`}</div>
           </div>
           {searchResults.map((option, index) => (
             <button
